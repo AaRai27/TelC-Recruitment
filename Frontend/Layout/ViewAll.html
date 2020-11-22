@@ -1,0 +1,558 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css"
+        integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
+    <link rel="stylesheet" href="../assets/css/style.css">
+
+    <title>Welcome Friends</title>
+</head>
+
+<body>
+
+
+    <!-- Navbar Start -->
+    <nav class="navbar navbar-expand-lg navbar-light main-nav border-bottom">
+        <div class="container-fluid">
+            <a class="navbar-brand mt-2" href="LandingPage.html"
+                style="color: rgb(165, 5, 5);font-weight: bold;font-size: 1.5vw;">Brand</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+                aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse mt-2" id="navbarSupportedContent">
+                <ul class="navbar-nav mr-auto">
+                    <li class="nav-item active">
+                        <a class="nav-link" href="LandingPage.html">Home <span class="sr-only">(current)</span></a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="OMDelivery.html">Delivery <span class="sr-only">(current)</span></a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="OMPickup.html">Pickup <span class="sr-only">(current)</span></a>
+                    </li>
+                </ul>
+                <form class="form-inline my-2 my-lg-0">
+                    <div class="search-cart mr-5">
+                        <button class="button-search"><img src="../icon/search-icon.png"></button>
+                        <a class="btn-cart" type="button" href="OMEmpty.html"><img src="../icon/cart.png"></a>
+                    </div>
+                    <div class="sign-button">
+                        <a href="#" class="my-0 py-1 px-4 mr-4 text-sign-in-button" type="submit">Sign
+                            In</a>
+                        <a href="#" class="btn btn-outline-warning my-0 py-1 px-4 text-sign-up-button"
+                            type="submit">Sign
+                            Up</a>
+                    </div>
+                </form>
+            </div>
+        </div>
+
+    </nav>
+    <!-- Navbar End -->
+    <nav aria-label="breadcrumb">
+        <div class="container">
+            <ol class="breadcrumb bg-transparent">
+                <a href="">
+                    <li class="breadcrumb-item active" aria-current="page"> Back</li>
+                </a>
+            </ol>
+        </div>
+    </nav>
+
+    <div class="main-section">
+        <div class="container mb-5">
+            <div class="row">
+                <!-- <div class="col-12"> -->
+                <h3 class="ml-4"><b>Top Rated Restaurant</b></h3>
+                <p class="text-info-restaurant mb-2 ml-2 pt-1">
+                    <small><svg width="0.5em" height="0.5em" viewBox="0 0 16 16" class="bi bi-circle-fill mr-2"
+                            fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+                            <circle cx="8" cy="8" r="8" />
+                        </svg> 65 restaurants
+                    </small>
+                </p>
+                <!-- </div> -->
+            </div>
+        </div>
+        <div class="container">
+            <div class="row">
+                <div class="col-md-4 filter-restaurant mb-5">
+                    <div class="card filter-field w-100">
+                        <div class="card-filter">
+                            <div class="card-body type-filter">
+                                <h6 class="card-title mb-1">Dining Options</h6>
+                                <button class="btn button-filter-active mb-2">Delivery</button>
+                                <button class="btn button-filter mb-2">Pick Up</button>
+                                <!-- <a href="#" class="btn btn-primary">Button</a> -->
+                            </div>
+                            <div class="card-body type-filter">
+                                <h6 class="card-title mb-1">Price</h6>
+                                <button class="btn button-filter mb-2">30 and under</button>
+                                <button class="btn button-filter mb-2">31 to 50</button>
+                                <button class="btn button-filter mb-2">50 and over</button>
+                            </div>
+                            <div class="card-body type-filter">
+                                <h6 class="card-title mb-1">Rating</h6>
+                                <button class="btn button-filter mb-2">Over 3</button>
+                                <button class="btn button-filter mb-2">Over 3.5</button>
+                                <button class="btn button-filter mb-2">Over 4</button>
+                                <button class="btn button-filter mb-2">Over 4.5</button>
+                            </div>
+                            <div class="card-body type-filter">
+                                <h6 class="card-title mb-1">Estimate Time</h6>
+                                <button class="btn button-filter mb-2">Under 30 min.</button>
+                                <button class="btn button-filter mb-2">Under 45 min.</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-8 restaurant-list mb-5">
+
+                    <div class="card card-top-restaurant mb-3">
+                        <div class="row no-gutters">
+                            <div class="col-md-4">
+                                <img src="../image/image8.jpg" class="card-img img-fluid">
+                            </div>
+                            <div class=" col-md-8">
+                                <div class="card-body">
+                                    <div class="type-rating">
+                                        <small class="text-info-restaurant">steak restaurant</small>
+                                        <small style="font-weight: bold;float: right;"><img src="../icon/star.png">
+                                            <b>4.5</b> <span class="text-info-restaurant">
+                                                (119
+                                                ratings)</span></small>
+                                    </div>
+                                    <h4 class="card-title mb-0"><b>The Shambles</b></h4>
+                                    <p class="text-info-restaurant mb-1"><small> <img src="../icon/map-pin.png"> 7777
+                                            15th Ave NE Seattle, WA 98115
+                                        </small></p>
+                                    <p class="text-info-restaurant mb-1"><small> <img src="../icon/dollar-sign.png">
+                                            Average price $50 and over <svg width="1em" height="1em" viewBox="0 0 16 16"
+                                                class="bi bi-circle-fill" fill="currentColor"
+                                                xmlns="http://www.w3.org/2000/svg">
+                                                <circle cx="8" cy="8" r="8" />
+                                            </svg> $1.5 delivery
+                                        </small></p>
+                                    <p class="text-info-restaurant mb-1"><small> <img src="../icon/clock.png"> Ready in
+                                            50 min <svg width=" 1em" height="1em" viewBox="0 0 16 16"
+                                                class="bi bi-circle-fill" fill="currentColor"
+                                                xmlns="http://www.w3.org/2000/svg">
+                                                <circle cx="8" cy="8" r="8" />
+                                            </svg> 0.5 km
+                                        </small></p>
+                                    <p class="text-info-restaurant-closed mb-1"><small><svg width="1.5em" height="1.5em"
+                                                viewBox="0 0 16 16" class="bi bi-x-circle" fill="currentColor"
+                                                xmlns="http://www.w3.org/2000/svg">
+                                                <path fill-rule="evenodd"
+                                                    d="M8 15A7 7 0 1 0 8 1a7 7 0 0 0 0 14zm0 1A8 8 0 1 0 8 0a8 8 0 0 0 0 16z" />
+                                                <path fill-rule="evenodd"
+                                                    d="M4.646 4.646a.5.5 0 0 1 .708 0L8 7.293l2.646-2.647a.5.5 0 0 1 .708.708L8.707 8l2.647 2.646a.5.5 0 0 1-.708.708L8 8.707l-2.646 2.647a.5.5 0 0 1-.708-.708L7.293 8 4.646 5.354a.5.5 0 0 1 0-.708z" />
+                                            </svg> Sorry, Restaurant is still
+                                            closed
+                                        </small></p>
+
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="card card-top-restaurant mb-3">
+                        <div class="row no-gutters">
+                            <div class="col-md-4">
+                                <img src="../image/image8.jpg" class="card-img img-fluid">
+                            </div>
+                            <div class=" col-md-8">
+                                <div class="card-body">
+                                    <div class="type-rating">
+                                        <small class="text-info-restaurant">steak restaurant</small>
+                                        <small style="font-weight: bold;float: right;"><img src="../icon/star.png">
+                                            <b>4.5</b> <span class="text-info-restaurant">
+                                                (119
+                                                ratings)</span></small>
+                                    </div>
+                                    <h4 class="card-title mb-0"><b>The Shambles</b></h4>
+                                    <p class="text-info-restaurant mb-1"><small> <img src="../icon/map-pin.png"> 7777
+                                            15th Ave NE Seattle, WA 98115
+                                        </small></p>
+                                    <p class="text-info-restaurant mb-1"><small> <img src="../icon/dollar-sign.png">
+                                            Average price $50 and over <svg width="1em" height="1em" viewBox="0 0 16 16"
+                                                class="bi bi-circle-fill" fill="currentColor"
+                                                xmlns="http://www.w3.org/2000/svg">
+                                                <circle cx="8" cy="8" r="8" />
+                                            </svg> $1.5 delivery
+                                        </small></p>
+                                    <p class="text-info-restaurant mb-1"><small> <img src="../icon/clock.png"> Ready in
+                                            50 min <svg width=" 1em" height="1em" viewBox="0 0 16 16"
+                                                class="bi bi-circle-fill" fill="currentColor"
+                                                xmlns="http://www.w3.org/2000/svg">
+                                                <circle cx="8" cy="8" r="8" />
+                                            </svg> 0.5 km
+                                        </small></p>
+                                    <p class="text-info-restaurant-closed mb-1"><small><svg width="1.5em" height="1.5em"
+                                                viewBox="0 0 16 16" class="bi bi-x-circle" fill="currentColor"
+                                                xmlns="http://www.w3.org/2000/svg">
+                                                <path fill-rule="evenodd"
+                                                    d="M8 15A7 7 0 1 0 8 1a7 7 0 0 0 0 14zm0 1A8 8 0 1 0 8 0a8 8 0 0 0 0 16z" />
+                                                <path fill-rule="evenodd"
+                                                    d="M4.646 4.646a.5.5 0 0 1 .708 0L8 7.293l2.646-2.647a.5.5 0 0 1 .708.708L8.707 8l2.647 2.646a.5.5 0 0 1-.708.708L8 8.707l-2.646 2.647a.5.5 0 0 1-.708-.708L7.293 8 4.646 5.354a.5.5 0 0 1 0-.708z" />
+                                            </svg> Sorry, Restaurant is still
+                                            closed
+                                        </small></p>
+
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="card card-top-restaurant mb-3">
+                        <div class="row no-gutters">
+                            <div class="col-md-4">
+                                <img src="../image/image8.jpg" class="card-img img-fluid">
+                            </div>
+                            <div class=" col-md-8">
+                                <div class="card-body">
+                                    <div class="type-rating">
+                                        <small class="text-info-restaurant">steak restaurant</small>
+                                        <small style="font-weight: bold;float: right;"><img src="../icon/star.png">
+                                            <b>4.5</b> <span class="text-info-restaurant">
+                                                (119
+                                                ratings)</span></small>
+                                    </div>
+                                    <h4 class="card-title mb-0"><b>The Shambles</b></h4>
+                                    <p class="text-info-restaurant mb-1"><small> <img src="../icon/map-pin.png"> 7777
+                                            15th Ave NE Seattle, WA 98115
+                                        </small></p>
+                                    <p class="text-info-restaurant mb-1"><small> <img src="../icon/dollar-sign.png">
+                                            Average price $50 and over <svg width="1em" height="1em" viewBox="0 0 16 16"
+                                                class="bi bi-circle-fill" fill="currentColor"
+                                                xmlns="http://www.w3.org/2000/svg">
+                                                <circle cx="8" cy="8" r="8" />
+                                            </svg> $1.5 delivery
+                                        </small></p>
+                                    <p class="text-info-restaurant mb-1"><small> <img src="../icon/clock.png"> Ready in
+                                            50 min <svg width=" 1em" height="1em" viewBox="0 0 16 16"
+                                                class="bi bi-circle-fill" fill="currentColor"
+                                                xmlns="http://www.w3.org/2000/svg">
+                                                <circle cx="8" cy="8" r="8" />
+                                            </svg> 0.5 km
+                                        </small></p>
+                                    <p class="text-info-restaurant-closed mb-1"><small><svg width="1.5em" height="1.5em"
+                                                viewBox="0 0 16 16" class="bi bi-x-circle" fill="currentColor"
+                                                xmlns="http://www.w3.org/2000/svg">
+                                                <path fill-rule="evenodd"
+                                                    d="M8 15A7 7 0 1 0 8 1a7 7 0 0 0 0 14zm0 1A8 8 0 1 0 8 0a8 8 0 0 0 0 16z" />
+                                                <path fill-rule="evenodd"
+                                                    d="M4.646 4.646a.5.5 0 0 1 .708 0L8 7.293l2.646-2.647a.5.5 0 0 1 .708.708L8.707 8l2.647 2.646a.5.5 0 0 1-.708.708L8 8.707l-2.646 2.647a.5.5 0 0 1-.708-.708L7.293 8 4.646 5.354a.5.5 0 0 1 0-.708z" />
+                                            </svg> Sorry, Restaurant is still
+                                            closed
+                                        </small></p>
+
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+
+                    <div class="card card-top-restaurant mb-3">
+                        <div class="row no-gutters">
+                            <div class="col-md-4">
+                                <img src="../image/image8.jpg" class="card-img img-fluid">
+                            </div>
+                            <div class=" col-md-8">
+                                <div class="card-body">
+                                    <div class="type-rating">
+                                        <small class="text-info-restaurant">steak restaurant</small>
+                                        <small style="font-weight: bold;float: right;"><img src="../icon/star.png">
+                                            <b>4.5</b> <span class="text-info-restaurant">
+                                                (119
+                                                ratings)</span></small>
+                                    </div>
+                                    <h4 class="card-title mb-0"><b>The Shambles</b></h4>
+                                    <p class="text-info-restaurant mb-1"><small> <img src="../icon/map-pin.png"> 7777
+                                            15th Ave NE Seattle, WA 98115
+                                        </small></p>
+                                    <p class="text-info-restaurant mb-1"><small> <img src="../icon/dollar-sign.png">
+                                            Average price $50 and over <svg width="1em" height="1em" viewBox="0 0 16 16"
+                                                class="bi bi-circle-fill" fill="currentColor"
+                                                xmlns="http://www.w3.org/2000/svg">
+                                                <circle cx="8" cy="8" r="8" />
+                                            </svg> $1.5 delivery
+                                        </small></p>
+                                    <p class="text-info-restaurant mb-1"><small> <img src="../icon/clock.png"> Ready in
+                                            50 min <svg width=" 1em" height="1em" viewBox="0 0 16 16"
+                                                class="bi bi-circle-fill" fill="currentColor"
+                                                xmlns="http://www.w3.org/2000/svg">
+                                                <circle cx="8" cy="8" r="8" />
+                                            </svg> 0.5 km
+                                        </small></p>
+                                    <p class="text-info-restaurant-opened mb-1"><small><svg width="1.5em" height="1.5em"
+                                                viewBox="0 0 16 16" class="bi bi-check-circle" fill="currentColor"
+                                                xmlns="http://www.w3.org/2000/svg">
+                                                <path fill-rule="evenodd"
+                                                    d="M8 15A7 7 0 1 0 8 1a7 7 0 0 0 0 14zm0 1A8 8 0 1 0 8 0a8 8 0 0 0 0 16z" />
+                                                <path fill-rule="evenodd"
+                                                    d="M10.97 4.97a.75.75 0 0 1 1.071 1.05l-3.992 4.99a.75.75 0 0 1-1.08.02L4.324 8.384a.75.75 0 1 1 1.06-1.06l2.094 2.093 3.473-4.425a.236.236 0 0 1 .02-.022z" />
+                                            </svg> We're Open!
+                                            closed
+                                        </small></p>
+
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card card-top-restaurant mb-3">
+                        <div class="row no-gutters">
+                            <div class="col-md-4">
+                                <img src="../image/image8.jpg" class="card-img img-fluid">
+                            </div>
+                            <div class=" col-md-8">
+                                <div class="card-body">
+                                    <div class="type-rating">
+                                        <small class="text-info-restaurant">steak restaurant</small>
+                                        <small style="font-weight: bold;float: right;"><img src="../icon/star.png">
+                                            <b>4.5</b> <span class="text-info-restaurant">
+                                                (119
+                                                ratings)</span></small>
+                                    </div>
+                                    <h4 class="card-title mb-0"><b>The Shambles</b></h4>
+                                    <p class="text-info-restaurant mb-1"><small> <img src="../icon/map-pin.png"> 7777
+                                            15th Ave NE Seattle, WA 98115
+                                        </small></p>
+                                    <p class="text-info-restaurant mb-1"><small> <img src="../icon/dollar-sign.png">
+                                            Average price $50 and over <svg width="1em" height="1em" viewBox="0 0 16 16"
+                                                class="bi bi-circle-fill" fill="currentColor"
+                                                xmlns="http://www.w3.org/2000/svg">
+                                                <circle cx="8" cy="8" r="8" />
+                                            </svg> $1.5 delivery
+                                        </small></p>
+                                    <p class="text-info-restaurant mb-1"><small> <img src="../icon/clock.png"> Ready in
+                                            50 min <svg width=" 1em" height="1em" viewBox="0 0 16 16"
+                                                class="bi bi-circle-fill" fill="currentColor"
+                                                xmlns="http://www.w3.org/2000/svg">
+                                                <circle cx="8" cy="8" r="8" />
+                                            </svg> 0.5 km
+                                        </small></p>
+                                    <p class="text-info-restaurant-opened mb-1"><small><svg width="1.5em" height="1.5em"
+                                                viewBox="0 0 16 16" class="bi bi-check-circle" fill="currentColor"
+                                                xmlns="http://www.w3.org/2000/svg">
+                                                <path fill-rule="evenodd"
+                                                    d="M8 15A7 7 0 1 0 8 1a7 7 0 0 0 0 14zm0 1A8 8 0 1 0 8 0a8 8 0 0 0 0 16z" />
+                                                <path fill-rule="evenodd"
+                                                    d="M10.97 4.97a.75.75 0 0 1 1.071 1.05l-3.992 4.99a.75.75 0 0 1-1.08.02L4.324 8.384a.75.75 0 1 1 1.06-1.06l2.094 2.093 3.473-4.425a.236.236 0 0 1 .02-.022z" />
+                                            </svg> We're Open!
+                                            closed
+                                        </small></p>
+
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card card-top-restaurant mb-3">
+                        <div class="row no-gutters">
+                            <div class="col-md-4">
+                                <img src="../image/image8.jpg" class="card-img img-fluid">
+                            </div>
+                            <div class=" col-md-8">
+                                <div class="card-body">
+                                    <div class="type-rating">
+                                        <small class="text-info-restaurant">steak restaurant</small>
+                                        <small style="font-weight: bold;float: right;"><img src="../icon/star.png">
+                                            <b>4.5</b> <span class="text-info-restaurant">
+                                                (119
+                                                ratings)</span></small>
+                                    </div>
+                                    <h4 class="card-title mb-0"><b>The Shambles</b></h4>
+                                    <p class="text-info-restaurant mb-1"><small> <img src="../icon/map-pin.png"> 7777
+                                            15th Ave NE Seattle, WA 98115
+                                        </small></p>
+                                    <p class="text-info-restaurant mb-1"><small> <img src="../icon/dollar-sign.png">
+                                            Average price $50 and over <svg width="1em" height="1em" viewBox="0 0 16 16"
+                                                class="bi bi-circle-fill" fill="currentColor"
+                                                xmlns="http://www.w3.org/2000/svg">
+                                                <circle cx="8" cy="8" r="8" />
+                                            </svg> $1.5 delivery
+                                        </small></p>
+                                    <p class="text-info-restaurant mb-1"><small> <img src="../icon/clock.png"> Ready in
+                                            50 min <svg width=" 1em" height="1em" viewBox="0 0 16 16"
+                                                class="bi bi-circle-fill" fill="currentColor"
+                                                xmlns="http://www.w3.org/2000/svg">
+                                                <circle cx="8" cy="8" r="8" />
+                                            </svg> 0.5 km
+                                        </small></p>
+                                    <p class="text-info-restaurant-closed mb-1"><small><svg width="1.5em" height="1.5em"
+                                                viewBox="0 0 16 16" class="bi bi-x-circle" fill="currentColor"
+                                                xmlns="http://www.w3.org/2000/svg">
+                                                <path fill-rule="evenodd"
+                                                    d="M8 15A7 7 0 1 0 8 1a7 7 0 0 0 0 14zm0 1A8 8 0 1 0 8 0a8 8 0 0 0 0 16z" />
+                                                <path fill-rule="evenodd"
+                                                    d="M4.646 4.646a.5.5 0 0 1 .708 0L8 7.293l2.646-2.647a.5.5 0 0 1 .708.708L8.707 8l2.647 2.646a.5.5 0 0 1-.708.708L8 8.707l-2.646 2.647a.5.5 0 0 1-.708-.708L7.293 8 4.646 5.354a.5.5 0 0 1 0-.708z" />
+                                            </svg> Sorry, Restaurant is still
+                                            closed
+                                        </small></p>
+
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <!-- Footer Start -->
+    <section class="main-footer bg-white">
+        <div class="container-fluid">
+            <footer class="bg-white">
+                <div class="row">
+                    <div class="col-md-1"></div>
+                    <div class="col-md-2">
+                        <h3 class="mb-4 mt-3"><b>Brands</b></h3>
+                    </div>
+                </div>
+
+                <div class="row">
+                    <div class="col-md-1"></div>
+                    <div class="col-md-2">
+                        <h3 class="mb-4 footer-title mt-3">Company</h3>
+                        <ul class="footer-nav" style="list-style-type: none;margin-left: -38px;">
+                            <li>
+                                <a href="">About Us</a>
+                            </li>
+                            <li>
+                                <a href="">Blog</a>
+                            </li>
+                            <li>
+                                <a href="">Careers</a>
+                            </li>
+                            <li>
+                                <a href="">Report</a>
+                            </li>
+                            <li>
+                                <a href="">Contact Me</a>
+                            </li>
+                        </ul>
+
+                    </div>
+                    <div class="col-md-0"></div>
+                    <div class="col-md-2">
+                        <h3 class="mb-4 footer-title mt-3">Discover</h3>
+                        <ul class="footer-nav" style="list-style-type: none;margin-left: -38px;">
+                            <li>
+                                <a href="">Top 100 Restaurants</a>
+                            </li>
+                            <li>
+                                <a href="">Cuisines Near Me</a>
+                            </li>
+                            <li>
+                                <a href="">Restaurants Near Me</a>
+                            </li>
+                            <li>
+                                <a href="">Deliveru Near Me</a>
+                            </li>
+                            <li>
+                                <a href="">Pick Up Near Me</a>
+                            </li>
+                            <li>
+                                <a href="">Cuisines</a>
+                            </li>
+                        </ul>
+
+                    </div>
+                    <div class="col-md-0"></div>
+                    <div class="col-md-2">
+                        <h3 class="mb-4 footer-title mt-3">For Restaurants</h3>
+                        <ul class="footer-nav" style="list-style-type: none;margin-left: -38px;">
+                            <li>
+                                <a href="">Business Application</a>
+                            </li>
+                            <li>
+                                <a href="">Add Restaurant</a>
+                            </li>
+                            <li>
+                                <a href="">Product for Business</a>
+                            </li>
+                        </ul>
+
+                    </div>
+                    <div class="col-md-0"></div>
+                    <div class="col-md-2">
+                        <h3 class="mb-4 footer-title mt-3">For You</h3>
+                        <ul class="footer-nav" style="list-style-type: none;margin-left: -38px;">
+                            <li>
+                                <a href="">Privacy</a>
+                            </li>
+                            <li>
+                                <a href="">Regulation</a>
+                            </li>
+                            <li>
+                                <a href="">Police</a>
+                            </li>
+                            <li>
+                                <a href="">Site Map</a>
+                            </li>
+                        </ul>
+
+                    </div>
+                    <div class="col-md-0"></div>
+                    <div class="col-md-2">
+                        <h3 class="mb-4 footer-title mt-3">Social Media</h3>
+                        <ul class="footer-nav" style="list-style-type: none;margin-left: -38px;">
+                            <li class="mb-3">
+                                <a href="" class="mr-2"><img style="border-radius: 15px;" src="../image/fb.png"
+                                        height="25px"></a>
+                                <a href="" class="mr-2"><img style="border-radius: 15px;" src="../image/twitter.png"
+                                        height="25px"></a>
+                                <a href="" class="mr-2"><img style="border-radius: 15px;" src="../image/ig.png"
+                                        height="25px"></a>
+                            </li>
+                            <li class="mb-3">
+                                <img src="../image/appstore.png" height="auto" width="150px" alt="">
+                            </li>
+                            <li class="mb-3">
+                                <img src="../image/gstore.png" height="auto" width="150px" alt="">
+                            </li>
+
+                        </ul>
+
+                    </div>
+                </div>
+            </footer>
+            <footer class="bg-white pt-0 mt-5">
+                <div class="row">
+                    <!-- <div class="col-md-1"></div> -->
+                    <div class="col-md-12 text-center">
+                        <p class="text-muted">Copyright 2020 Shahnaznasyf - Tel-C | By Muhammad Afif Raihan</p>
+                    </div>
+                </div>
+            </footer>
+        </div>
+    </section>
+    <!-- Footer End -->
+
+
+
+
+
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+        integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous">
+    </script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"
+        integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous">
+    </script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.min.js"
+        integrity="sha384-w1Q4orYjBQndcko6MimVbzY0tgp4pWB4lZ7lr30WKz0vr/aWKhXdBNmNb5D92v7s" crossorigin="anonymous">
+    </script>
+
+</body>
+
+</html>
